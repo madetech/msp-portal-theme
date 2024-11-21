@@ -4743,6 +4743,8 @@ input[data-garden-container-id="containers.field.input"] {
   border-width: 2px;
 }
 
-.ck-rounded-corners {
-  border-radius: 0;
+.ck.ck-content.ck-rounded-corners,
+.ck.ck-sticky-panel__content,
+.ck.ck-content.ck-editor__editable.ck-rounded-corners {
+    border-radius: 0px;
 }
