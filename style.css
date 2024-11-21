@@ -4743,8 +4743,13 @@ input[data-garden-container-id="containers.field.input"] {
   border-width: 2px;
 }
 
-.ck.ck-content.ck-rounded-corners,
-.ck.ck-sticky-panel__content,
-.ck.ck-content.ck-editor__editable.ck-rounded-corners {
+.ck.ck-content.ck-editor__editable.ck-rounded-corners,
+.ck-rounded-corners .ck.ck-editor__top .ck-sticky-panel .ck-sticky-panel__content, .ck.ck-editor__top .ck-sticky-panel .ck-sticky-panel__content.ck-rounded-corners,
+.ck.ck-toolbar.ck-toolbar_grouping {
     border-radius: 0px;
+    border-width: 2px;
+}
+
+.ck.ck-content.ck-editor__editable.ck-rounded-corners {
+    border-top-width: 0px
 }
