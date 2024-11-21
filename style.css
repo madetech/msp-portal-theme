@@ -187,10 +187,10 @@ template {
 }
 
 body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
   background-color: $background_color;
   color: $text_color;
-  font-family: $text_font;
-  font-size: 15px;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
