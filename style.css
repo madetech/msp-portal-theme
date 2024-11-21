@@ -4719,3 +4719,30 @@ zd-summary-block {
 [dir=rtl] zd-summary-block {
   border-right-color: #859fa1;
 }
+
+/***** Error messages in form *****/
+div[data-garden-container-id="containers.field.message"] svg {
+  display: none;
+}
+
+div[data-garden-container-id="containers.field.message"] {
+  padding-left: 0px;
+  font-size: 11px;
+  font-weight:700
+}
+
+div:has(> [data-garden-container-id="containers.field.message"]) {
+    padding-left: 15px;
+    border-left: 5px solid #d4351c;
+}
+
+div[data-garden-container-id="containers.combobox"],
+div[data-garden-id="dropdowns.combobox"],
+input[data-garden-container-id="containers.field.input"] {
+  border-radius: 0;
+  border-width: 2px;
+}
+
+.ck-rounded-corners {
+  border-radius: 0;
+}
