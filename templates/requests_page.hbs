@@ -34,6 +34,11 @@
         {{subscribe}}
       </div>
 
+      <div class="request-table-filter">
+        {{label 'status' for='request-status-select' class='request-filter request-filter-label'}}
+        {{select 'status' id='request-status-select' class='request-filter'}}
+      </div>
+
       <div class="my-activities-sub-nav">
         <nav class="collapsible-nav collapsible-nav-border">
           <button type="button" class="collapsible-nav-toggle" aria-label="{{t 'toggle_navigation'}}" aria-expanded="false">
@@ -56,11 +61,6 @@
             {{/each}}
           </ul>
         </nav>
-      </div>
-
-      <div class="request-table-filter">
-        {{label 'status' for='request-status-select' class='request-filter request-filter-label'}}
-        {{select 'status' id='request-status-select' class='request-filter'}}
       </div>
     {{/form}}
 
