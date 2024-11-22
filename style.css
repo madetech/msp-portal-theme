@@ -405,7 +405,9 @@ ul {
   color: $brand_text_color;
 }
 .button-large:hover, .button-large:active, .button-large:focus, .hbs-form input[type=submit]:hover, .hbs-form input[type=submit]:active, .hbs-form input[type=submit]:focus {
-  background-color: var(--mt-green)
+  background-color: var(--mt-green);
+  border-radius: 0px !important;
+  box-shadow: 0 2px 0 #002d18 !important;
 }
 .button-large[disabled], .hbs-form input[type=submit][disabled] {
   background-color: #ddd;
