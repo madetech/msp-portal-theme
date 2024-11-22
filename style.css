@@ -4773,10 +4773,3 @@ button[data-garden-id="buttons.button"] {
     border-radius: 0px
     background-color: var(--mt-green);
 }
-
-/* black border on inputs and comboboxes */
-input[data-garden-container-id="containers.field.input"],
-div[data-garden-container-id="containers.combobox"] {
-  border-color: black;
-  border-width: 2px;
-}
