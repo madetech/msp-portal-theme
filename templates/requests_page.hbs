@@ -11,6 +11,9 @@
     <header class="my-activities-header">
       <h1>{{t 'my_requests'}}</h1>
 
+    </header>
+
+    {{#form 'requests_filter' id="main-content" class='requests-table-toolbar hbs-form'}}
       <div class="search">
         <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" focusable="false" viewBox="0 0 12 12" class="search-icon" aria-hidden="true">
           <circle cx="4.5" cy="4.5" r="4" fill="none" stroke="currentColor"/>
@@ -20,6 +23,12 @@
         {{input 'query' id='quick-search' type='search' class='requests-search'}}
       </div>
 
+      {{#if help_center.multiple_organizations_enabled}}
+        <div class="request-table-filter">
+          {{label 'organization' for='request-organization-select' class='request-filter request-filter-label'}}
+          {{select 'organization' id='request-organization-select' class='request-filter'}}
+        </div>
+      {{/if}}
       <div class="my-activities-sub-nav">
         <nav class="collapsible-nav collapsible-nav-border">
           <button type="button" class="collapsible-nav-toggle" aria-label="{{t 'toggle_navigation'}}" aria-expanded="false">
@@ -43,15 +52,6 @@
           </ul>
         </nav>
       </div>
-    </header>
-
-    {{#form 'requests_filter' id="main-content" class='requests-table-toolbar hbs-form'}}
-      {{#if help_center.multiple_organizations_enabled}}
-        <div class="request-table-filter">
-          {{label 'organization' for='request-organization-select' class='request-filter request-filter-label'}}
-          {{select 'organization' id='request-organization-select' class='request-filter'}}
-        </div>
-      {{/if}}
 
       <div class="request-table-filter organization-subscribe">
         {{subscribe}}
