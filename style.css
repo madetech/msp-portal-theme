@@ -4743,6 +4743,17 @@ input[data-garden-container-id="containers.field.input"] {
   border-width: 2px;
 }
 
+/***** Description field *****?
+/* Doesn't work, hardcoded in wysiwyg bundle to fix */
 :root {
     --ck-border-radius: 0px;
+}
+
+.ck .ck-content .ck-editor__editable .ck-editor__editable_inline,
+.ck.ck-editor__top .ck-sticky-panel .ck-sticky-panel__content {
+  border-width: 2px
+}
+
+.ck.ck-editor__top .ck-sticky-panel .ck-sticky-panel__content {
+  border-bottom: 0;
 }
