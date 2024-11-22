@@ -3063,6 +3063,7 @@ ul {
     border-top: 4px solid grey;
     border-left: 4px solid grey;
     border-right: 4px solid grey;
+    border-bottom: 1px solid #b1b4b6;
     order: 1;
   }
 }
@@ -3148,7 +3149,7 @@ ul {
   margin-bottom: 20px;
 }
 .my-activities-sub-nav {
-  margin-bottom: 30px;
+  margin-top: 30px;
 }
 .my-activities-table .striped-list-title { /* My activities tables */
   display: block;
@@ -4774,4 +4775,11 @@ button[data-garden-id="buttons.button"] {
     box-shadow: 0 2px 0 #002d18;
     border-radius: 0px
     background-color: var(--mt-green);
+}
+
+.requests {
+    border: 4px solid grey;
+    border-top: 0;
+    margin-bottom: 0;
+    padding: 30px 20px;
 }
