@@ -4767,3 +4767,9 @@ input[data-garden-container-id="containers.field.input"] {
 .ck.ck-editor__top .ck-sticky-panel .ck-sticky-panel__content {
   border-bottom: 0;
 }
+
+button[data-garden-id="buttons.button"] {
+    box-shadow: 0 2px 0 #002d18;
+    border-radius: 0px
+    background-color: var(--mt-green);
+}
