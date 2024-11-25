@@ -2601,6 +2601,11 @@ ul {
 .status-label-open {
   background-color: #d4351c3f;
 }
+/* Triage */
+span[title="Ticket is in Triage"] {
+  background-color: #1d70b83f;
+}
+
 .status-label-solved {
   background-color: #00703c3f;
 }
