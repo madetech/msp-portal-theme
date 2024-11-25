@@ -191,7 +191,6 @@ template {
 
 body {
   font-family: 'Montserrat', sans-serif;
-  font-size: 11px;
   background-color: $background_color;
   color: $text_color;
   line-height: 1.5;
