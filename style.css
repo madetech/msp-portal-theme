@@ -3048,7 +3048,7 @@ ul {
   }
   .collapsible-nav-list li:not(.current) {
     text-decoration: underline;
-    background-color: #f3f2f1
+    background-color: darken($background_color, 5%);
   }
   .collapsible-nav-list li:not(.current):hover {
     text-decoration-thickness: 2px;
@@ -3071,6 +3071,7 @@ ul {
     border-bottom: 0;
     padding: 14px 19px 16px;
     margin-bottom: -2px;
+    background-color: $background_color;
     order: 1;
   }
 }
