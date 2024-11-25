@@ -40,6 +40,17 @@
       </div>
     {{/form}}
 
+    {{#if query}}
+      <div class="requests-search-info meta-data">
+        {{t 'requests_search_results_info' count=requests.length query=query}}
+      </div>
+    {{else}}
+      {{#unless requests}}
+        <p class="no-activities">{{t 'no_requests'}}</p>
+      {{/unless}}
+    {{/if}}
+
+
       <div class="my-activities-sub-nav">
         <nav class="collapsible-nav collapsible-nav-border">
           <button type="button" class="collapsible-nav-toggle" aria-label="{{t 'toggle_navigation'}}" aria-expanded="false">
@@ -63,16 +74,6 @@
           </ul>
         </nav>
       </div>
-
-    {{#if query}}
-      <div class="requests-search-info meta-data">
-        {{t 'requests_search_results_info' count=requests.length query=query}}
-      </div>
-    {{else}}
-      {{#unless requests}}
-        <p class="no-activities">{{t 'no_requests'}}</p>
-      {{/unless}}
-    {{/if}}
 
     <div class="requests">
       {{#if requests}}
