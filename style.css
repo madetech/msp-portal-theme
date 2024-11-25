@@ -2602,14 +2602,14 @@ ul {
   background-color: #d4351c3f;
 }
 .status-label-solved {
-  background-color: #68737d;
+  background-color: #00703c3f;
 }
 .status-label-new {
   background-color: #ffb648;
   color: #703b15;
 }
 .status-label-hold {
-  background-color: #000;
+  background-color: #ffdd003f;
 }
 .status-label-request {
   max-width: 100%;
