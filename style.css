@@ -3039,9 +3039,7 @@ ul {
 .collapsible-nav-list li:not([aria-selected=true]),
 .collapsible-nav-list li:not(.current) {
   display: none;
-  text-decoration: underline;
 }
-    text-decoration-thickness: 2px;
 @media (min-width: 768px) {
   .collapsible-nav-list li:not([aria-selected=true]),
   .collapsible-nav-list li:not(.current) {
