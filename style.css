@@ -4793,7 +4793,6 @@ button[data-garden-id="buttons.button"] {
 .search svg {
   display: none;
 }
-.search input[type=search] {
+[dir=ltr] .search input[type=search] {
     padding-left: 20px;
-    padding-right: 20px;
 }
