@@ -3045,10 +3045,10 @@ ul {
   .collapsible-nav-list li:not(.current) {
     display: block;
     padding: 14px 19px 16px;
-    background-color: #f3f2f1
   }
   .collapsible-nav-list li:not(.current) {
     text-decoration: underline;
+    background-color: #f3f2f1
   }
   .collapsible-nav-list li:not(.current):hover {
     text-decoration-thickness: 2px;
@@ -3070,7 +3070,7 @@ ul {
     border: 2px solid #b1b4b6;
     border-bottom: 0;
     padding: 14px 19px 16px;
-    margin-bottom: -1px;
+    margin-bottom: -2px;
     order: 1;
   }
 }
