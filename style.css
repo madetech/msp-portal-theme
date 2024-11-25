@@ -3045,6 +3045,7 @@ ul {
   .collapsible-nav-list li:not([aria-selected=true]),
   .collapsible-nav-list li:not(.current) {
     display: block;
+    padding: 14px 19px 16px;
   }
 }
 @media (min-width: 768px) {
@@ -3060,10 +3061,9 @@ ul {
 @media (min-width: 768px) {
   .collapsible-nav-list li[aria-selected=true],
   .collapsible-nav-list li.current {
-    border-top: 4px solid grey;
-    border-left: 4px solid grey;
-    border-right: 4px solid grey;
-    border-bottom: 4px solid white;;
+    border: 2px solid #b1b4b6;
+    border-bottom: 0;
+    padding: 14px 19px 16px;
     order: 1;
   }
 }
