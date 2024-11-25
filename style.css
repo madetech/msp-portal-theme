@@ -2615,6 +2615,10 @@ span[title="Ticket is being worked on"] {
 .status-label-solved {
   background-color: #00703c3f;
 }
+/* Closed */
+span[title="Ticket is closed"] {
+  background-color: #b1b4b63f;
+}
 .status-label-new {
   background-color: #ffb648;
   color: #703b15;
