@@ -2590,7 +2590,7 @@ ul {
   left: 30px;
   right: auto;
 }
-.status-label-not-planned, .status-label-closed {
+.status-label-not-planned {
   background-color: #e9ebed;
   color: lighten($text_color, 20%);
 }
@@ -2605,7 +2605,13 @@ ul {
 span[title="Ticket is in Triage"] {
   background-color: #1d70b83f;
 }
-
+/* In progress */
+span[title="Ticket is being worked on"] {
+  background-color: #4c2c923f;
+}
+.status-label-answered {
+  background-color: #f477383f;
+}
 .status-label-solved {
   background-color: #00703c3f;
 }
@@ -2615,6 +2621,9 @@ span[title="Ticket is in Triage"] {
 }
 .status-label-hold {
   background-color: #ffdd003f;
+}
+.status-label-close {
+  background-color: #b1b4b63f;
 }
 .status-label-request {
   max-width: 100%;
