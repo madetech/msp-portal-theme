@@ -4799,6 +4799,29 @@ button[data-garden-id="buttons.button"] {
     box-shadow: 0 2px 0 #002d18;
     border-radius: 0px;
     background-color: var(--mt-green);
+    /* Copied from New Request Submit button */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: border-color 0.25s ease-in-out, box-shadow 0.1s ease-in-out, background-color 0.25s ease-in-out, color 0.25s ease-in-out, outline-color 0.1s ease-in-out, z-index 0.25s ease-in-out;
+    margin: 0px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    overflow: hidden;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family: inherit;
+    font-weight: 400;
+    box-sizing: border-box;
+    user-select: none;
+    padding: 0px 1.07143em;
+    height: 40px;
+    line-height: 38px;
+    font-size: 14px;
+    outline-color: transparent;
+    color: rgb(255, 255, 255);
 }
 
 .requests {
