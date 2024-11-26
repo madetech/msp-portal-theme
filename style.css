@@ -4806,7 +4806,6 @@ button[data-garden-id="buttons.button"] {
     transition: border-color 0.25s ease-in-out, box-shadow 0.1s ease-in-out, background-color 0.25s ease-in-out, color 0.25s ease-in-out, outline-color 0.1s ease-in-out, z-index 0.25s ease-in-out;
     margin: 0px;
     border: 1px solid transparent;
-    border-radius: 4px;
     cursor: pointer;
     overflow: hidden;
     text-decoration: none;
