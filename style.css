@@ -4798,6 +4798,8 @@ input[data-garden-container-id="containers.field.input"] {
 button[data-garden-id="buttons.button"]:not(.button-secondary) {
     box-shadow: 0 2px 0 #002d18;
     border-radius: 0px;
+    background-color: var(--mt-green);
+
     /* Copied from New Request Submit button */
     display: inline-flex;
     align-items: center;
@@ -4820,6 +4822,10 @@ button[data-garden-id="buttons.button"]:not(.button-secondary) {
     font-size: 14px;
     outline-color: transparent;
     color: rgb(255, 255, 255);
+}
+
+button[data-garden-id="buttons.button"]:not(.button-secondary):hover {
+    background-color: darken(var(--mt-green), 5%);
 }
 
 .requests {
