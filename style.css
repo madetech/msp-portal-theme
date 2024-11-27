@@ -4798,7 +4798,6 @@ input[data-garden-container-id="containers.field.input"] {
 button[data-garden-id="buttons.button"]:not(.button-secondary) {
     box-shadow: 0 2px 0 #002d18;
     border-radius: 0px;
-    background-color: var(--mt-green);
     /* Copied from New Request Submit button */
     display: inline-flex;
     align-items: center;
