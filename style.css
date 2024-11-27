@@ -4835,7 +4835,7 @@ button[data-garden-id="buttons.button"]:not(.button-secondary):hover {
 }
 
 .requests {
-    border: 1px solid grey;
+    border: 2px solid grey;
     margin-bottom: 0;
     padding: 30px 20px;
 }
