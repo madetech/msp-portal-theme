@@ -394,7 +394,7 @@ ul {
   padding: 0 1.9286em;
   width: 100%;
   font-size: 1rem;
-  box-shadow: 0 2px 0 #002d18 !important;
+  box-shadow: 0 2px 0 #002d18;
 }
 @media (min-width: 768px) {
   .button-large, .hbs-form input[type=submit] {
