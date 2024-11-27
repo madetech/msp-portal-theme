@@ -4820,7 +4820,6 @@ button[data-garden-id="buttons.button"]:not(.button-secondary) {
     padding: 0px 1.07143em;
     height: 40px;
     line-height: 38px;
-    font-size: 14px;
     outline-color: transparent;
     color: rgb(255, 255, 255);
 }
