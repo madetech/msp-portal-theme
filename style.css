@@ -4795,7 +4795,7 @@ input[data-garden-container-id="containers.field.input"] {
   border-bottom: 0;
 }
 
-button[data-garden-id="buttons.button"] {
+button[data-garden-id="buttons.button"]:not(.button-secondary) {
     box-shadow: 0 2px 0 #002d18;
     border-radius: 0px;
     background-color: var(--mt-green);
