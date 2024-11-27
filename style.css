@@ -746,7 +746,6 @@ ul {
 }
 .nav-wrapper-desktop a:hover, .nav-wrapper-desktop a:focus, .nav-wrapper-desktop a:active {
   background-color: transparent;
-  color: $link_color;
   text-decoration: underline;
 }
 
@@ -903,7 +902,6 @@ ul {
   white-space: nowrap;
 }
 .user-info > button:hover, .user-info > button:focus {
-  color: $link_color;
   background-color: transparent;
 }
 .user-info > button::after {
