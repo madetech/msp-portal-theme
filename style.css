@@ -3088,10 +3088,10 @@ span[title="Ticket is closed"] {
 @media (min-width: 768px) {
   .collapsible-nav-list li[aria-selected=true],
   .collapsible-nav-list li.current {
-    border: 2px solid #b1b4b6;
+    border: 2px solid grey;
     border-bottom: 0;
     padding: 14px 19px 16px;
-    margin-bottom: -2px;
+    margin-bottom: -3px;
     background-color: $background_color;
     order: 1;
   }
