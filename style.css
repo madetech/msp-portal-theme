@@ -413,8 +413,8 @@ ul {
 }
 
 .button-secondary {
-  color: lighten($text_color, 20%);
-  border: 1px solid #87929D;
+  color: #0b0c0c;
+  border: 1px solid transparent;
   background-color: #f3f2f1;
   box-shadow: 0 2px 0 #929191;
   line-height: 38px;
