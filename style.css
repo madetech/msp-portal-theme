@@ -424,7 +424,6 @@ ul {
 }
 .button-secondary:hover, .button-secondary:focus, .button-secondary:active {
   color: $text_color;
-  border: 1px solid #87929D;
   background-color: #dbdad9;
 }
 .button-large:focus:not(:active):not(:hover){
