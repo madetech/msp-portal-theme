@@ -730,7 +730,7 @@ ul {
 }
 .nav-wrapper-desktop a {
   border: 0;
-  color: $link_color;
+  color: white;
   display: none;
   font-size: 14px;
   padding: 0 20px 0 0;
