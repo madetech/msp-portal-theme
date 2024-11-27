@@ -3,6 +3,7 @@
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 :root {
   --mt-green: #00AC32;
+  --mt-green-darker: #00932B;
 }
 html {
   line-height: 1.15;
@@ -4825,7 +4826,7 @@ button[data-garden-id="buttons.button"]:not(.button-secondary) {
 }
 
 button[data-garden-id="buttons.button"]:not(.button-secondary):hover {
-    background-color: darken(var(--mt-green), 5%);
+    background-color: var(--mt-green-darker);
 }
 
 .requests {
