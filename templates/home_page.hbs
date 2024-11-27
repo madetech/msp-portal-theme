@@ -6,18 +6,18 @@
   </div>
   <div>
     <legend>
-      <h1>Welcome to the {{help_center.name}} Portal</h1>
+      <h1 style="margin-bottom: 0;">{{help_center.name}}</h1>
     </legend>
-    <h2> Select below to Submit a New Request or Check your Existing Requests</h2>
+    <h2>Support Portal</h2>
 
   </div>
   <div class="requests-table-toolbar hbs-form">
     <form style="display: block; text-align: center; margin: 20px;" class="submitbutton" action="{{page_path 'new_request'}}">
-      <button type="submit" data-garden-id="buttons.button" data-garden-version="8.76.2" class="button-large">Submit a  Request</button>
+      <button type="submit" data-garden-id="buttons.button" data-garden-version="8.76.2" class="button-large">Add new request</button>
     </form>
 
     <form  style="display: block; text-align: center; margin: 20px;"class="requestbutton" action="{{page_path 'my_activities'}}">
-      <button type="submit" data-garden-id="buttons.button" data-garden-version="8.76.2" class="button-large button-secondary">Check your Existing Requests</button>
+      <button type="submit" data-garden-id="buttons.button" data-garden-version="8.76.2" class="button-large button-secondary">View existing requests</button>
     </form>
   </div>
 </section>
