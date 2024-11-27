@@ -214,12 +214,6 @@
       "label": "brand_group_label",
       "variables": [
         {
-          "identifier": "logo",
-          "type": "file",
-          "description": "logo_description",
-          "label": "logo_label"
-        },
-        {
           "identifier": "show_brand_name",
           "type": "checkbox",
           "description": "show_brand_name_description",
