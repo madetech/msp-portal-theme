@@ -4823,7 +4823,7 @@ button[data-garden-id="buttons.button"]:not(.button-secondary) {
     text-overflow: ellipsis;
     white-space: nowrap;
     font-family: inherit;
-    font-weight: 400;
+    font-weight: 800;
     box-sizing: border-box;
     user-select: none;
     padding: 0px 1.07143em;
