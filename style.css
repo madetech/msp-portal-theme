@@ -1894,6 +1894,18 @@ ul {
 .article-more-questions a:hover, .article-more-questions a:active, .article-more-questions a:focus {
   color: $hover_link_color;
 }
+a:active {
+  color: $active_link_color;
+}
+a:focus {
+  color: $active_link_color;
+  outline: 3px solid transparent;
+  background-color: #fd0;
+  box-shadow: 0 -2px #fd0,0 4px #0b0c0c;
+  text-decoration: none;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
 .article-return-to-top {
   border-top: 1px solid #87929D;
 }

@@ -34,21 +34,28 @@
           "type": "color",
           "description": "link_color_description",
           "label": "link_color_label",
-          "value": "#1F73B7"
+          "value": "#1d70b8"
         },
         {
           "identifier": "hover_link_color",
           "type": "color",
           "description": "hover_link_color_description",
           "label": "hover_link_color_label",
-          "value": "#0F3554"
+          "value": "#003078"
         },
         {
           "identifier": "visited_link_color",
           "type": "color",
           "description": "visited_link_color_description",
           "label": "visited_link_color_label",
-          "value": "#9358B0"
+          "value": "#4c2c92"
+        },
+        {
+          "identifier": "active_link_color",
+          "type": "color",
+          "description": "active_link_color_description",
+          "label": "active_link_color_label",
+          "value": "#0b0c0c"
         },
         {
           "identifier": "background_color",
