@@ -4804,6 +4804,11 @@ div[data-garden-id="dropdowns.combobox"],
 input[data-garden-container-id="containers.field.input"] {
   border-radius: 0;
   border-width: 2px;
+  "&:focus": {
+    outline: 3px solid #fd0;
+    outline-offset: 0;
+    box-shadow: inset 0 0 0 2px;
+  }
 }
 
 /***** Description field *****?
