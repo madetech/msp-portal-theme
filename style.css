@@ -1894,6 +1894,13 @@ ul {
 .article-more-questions a:hover, .article-more-questions a:active, .article-more-questions a:focus {
   color: $hover_link_color;
 }
+a:hover {
+  text-decoration-thickness: max(3px,.1875rem,.12em);
+  -webkit-text-decoration-skip-ink: none;
+  text-decoration-skip-ink: none;
+  -webkit-text-decoration-skip: none;
+  text-decoration-skip: none;
+}
 a:active {
   color: $active_link_color;
 }
