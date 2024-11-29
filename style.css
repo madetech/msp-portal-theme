@@ -4826,7 +4826,7 @@ input[data-garden-container-id="containers.field.input"]:focus {
 }
 
 
-.ck .ck-content .ck-editor__editable .ck-editor__editable_inline,
+.ck.ck-content.ck-editor__editable.ck-editor__editable_inline,
 .ck.ck-editor__top .ck-sticky-panel .ck-sticky-panel__content {
   border-width: 2px !important;
 }
