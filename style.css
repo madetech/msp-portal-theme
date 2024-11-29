@@ -4801,14 +4801,17 @@ div:has(> [data-garden-container-id="containers.field.message"]) {
 
 div[data-garden-container-id="containers.combobox"],
 div[data-garden-id="dropdowns.combobox"],
+div[data-garden-id="dropdowns.combobox.trigger"],
 input[data-garden-container-id="containers.field.input"] {
   border-radius: 0;
   border-width: 2px;
+  border-color: black;
 }
 div[data-garden-container-id="containers.combobox"]:focus,
 div[data-garden-id="dropdowns.combobox"]:focus,
+div[data-garden-id="dropdowns.combobox.trigger"]:focus,
 input[data-garden-container-id="containers.field.input"]:focus {
-  outline: 3px solid #fd0;
+  outline: 3px solid #fd0 !important;
   outline-offset: 0;
   box-shadow: inset 0 0 0 2px;
 }
