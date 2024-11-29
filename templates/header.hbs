@@ -13,7 +13,6 @@
   <div class="nav-wrapper-desktop">
     <nav class="user-nav" id="user-nav" aria-label="{{t 'user_navigation'}}">
       <ul class="user-nav-list">
-        <li style="color: white">{{link 'community'}}</li>
         <li style="color: white">{{link 'new_request' class='submit-a-request'}}</li>
         {{#unless signed_in}}
           <li>
@@ -38,7 +37,6 @@
         <div class="dropdown-menu" role="menu">
           {{#my_profile role="menuitem"}}{{t 'profile'}}{{/my_profile}}
           {{link "requests" role="menuitem"}}
-          {{#link "contributions" role="menuitem"}}{{t "activities"}}{{/link}}
           {{contact_details role="menuitem"}}
           {{change_password role="menuitem"}}
           <div class="separator" role="separator"></div>
@@ -82,7 +80,6 @@
           </li>
           <li class="nav-divider"></li>
         {{/if}}
-        <li class="item">{{link 'community' role="menuitem"}}</li>
         <li class="item">{{link 'new_request' role="menuitem" class='submit-a-request'}}</li>
         <li class="nav-divider"></li>
         {{#if signed_in}}
