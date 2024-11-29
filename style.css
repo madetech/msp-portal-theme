@@ -4805,8 +4805,11 @@ div[data-garden-id="dropdowns.combobox.trigger"],
 input[data-garden-container-id="containers.field.input"] {
   border-radius: 0;
   border-width: 2px;
+}
+input[data-garden-container-id="containers.field.input"]:not([aria-invalid="true"]) {
   border-color: black;
 }
+
 div[data-garden-container-id="containers.combobox"]:focus,
 div[data-garden-id="dropdowns.combobox"]:focus,
 div[data-garden-id="dropdowns.combobox.trigger"]:focus,
