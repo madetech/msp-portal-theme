@@ -4822,13 +4822,14 @@ input[data-garden-container-id="containers.field.input"]:focus {
     --ck-border-radius: 0px;
 }
 
+
 .ck .ck-content .ck-editor__editable .ck-editor__editable_inline,
 .ck.ck-editor__top .ck-sticky-panel .ck-sticky-panel__content {
-  border-width: 2px
+  border-width: 2px !important;
 }
 
 .ck.ck-editor__top .ck-sticky-panel .ck-sticky-panel__content {
-  border-bottom: 0;
+  border-bottom: 0 !important;
 }
 
 button[data-garden-id="buttons.button"]:not(.button-secondary) {
