@@ -4881,3 +4881,8 @@ button[data-garden-id="buttons.button"]:not(.button-secondary):hover {
 [dir=ltr] .search input[type=search] {
     padding-left: 20px;
 }
+
+/***** Footer logo *****/
+.footer img {
+  max-height: 40px;
+}
