@@ -34,8 +34,8 @@ jq ".version = \"$NEW_VERSION\"" "$MANIFEST_FILE" > temp.json && mv temp.json "$
 # Stage the updated manifest.json for commit
 git add "$MANIFEST_FILE"
 
-# Commit and push changes
+# Commit changes
 git commit -m "Update manifest version to $NEW_VERSION"
 
 # Output the new version
-echo "Version updated to $NEW_VERSION and changes pushed to GitHub."
+echo "Version updated to $NEW_VERSION and commit created."
